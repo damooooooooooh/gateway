@@ -88,7 +88,6 @@ const Router = {
         next();
 
       // If request won't accept HTML but will accept JSON,
-      // or has a content-type of JSON
       // or is a WebSocket request, or is multipart/form-data
       // treat it as an API request
       } else if (!request.accepts('html') && request.accepts('json') ||

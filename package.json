@@ -46,7 +46,7 @@
     "express-handlebars": "^3.0.2",
     "express-promise-router": "^3.0.3",
     "express-ws": "^4.0.0",
-    "gateway-addon": "git+https://github.com/damooooooooooh/gateway-addon-node.git",
+    "gateway-addon": "https://github.com/mozilla-iot/gateway-addon-node",
     "greenlock": "^2.7.17",
     "http-proxy": "^1.17.0",
     "ip-regex": "^4.0.0",

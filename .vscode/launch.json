@@ -10,8 +10,7 @@
         "runtimeArgs": [
             "run-script", "debug-ide"
         ],
-        "port": 5858,
-        "timeout": 70000;
+        "port": 5858
     }
   ]
 }

@@ -46,7 +46,7 @@ class Model {
     if (!this.handlers.has(event)) {
       this.handlers.set(event, new Map());
     }
-    console.log('suscribe', event, handler);
+
     const eventHandlers = this.handlers.get(event);
     eventHandlers.set(handler, handler);
   }
@@ -57,7 +57,6 @@ class Model {
    * @param {*} state - a state which is pushed to handlers
    */
   async handleEvent(event, state) {
-    console.log('model.js handleevent', event, state);
     if (!this.handlers.has(event)) {
       return;
     }
